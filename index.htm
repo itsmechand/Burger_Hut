@@ -1,167 +1,171 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Burger Hut</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
-
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
 </head>
-
 <body>
-	<header>
-	  <div class="logo">
-		<img src="imgs/iconlogo.png" alt="Burger Hut Logo">
-	  </div>
-	  <nav>
-		<ul>
-		  <li><a href="#home">Home</a></li>
-		  <li><a href="#about">About</a></li>
-		  <li><a href="#menu">Menu</a></li>
-		  <li><a href="#reservations">Reservations</a></li>
-		  <li><a href="#contact">Contact</a></li>
-		</ul>
-	  </nav>
-	</header>
-
-<section class="hero">
-  <div class="hero-content">
-    <h1>Welcome to Burger Hut</h1>
-    <p>Experience the Taste of Perfection</p>
-    <a href="#menu" class="btn">Explore Our Menu</a>
-  </div>
-</section>
-
-<section class="about dark-theme">
-  <div class="about-content">
-    <h2>About Burger Hut</h2>
-    <p>Experience the finest gourmet burgers in a cozy and rustic atmosphere. At Burger Hut, we are dedicated to delivering exceptional flavors that will tantalize your taste buds.</p>
-    <p>Our chefs meticulously craft each burger using locally sourced ingredients and unique flavor combinations. From juicy beef patties to mouthwatering vegetarian options, there's something for everyone.</p>
-    <a href="#menu" class="btn">Explore Our Menu</a>
-  </div>
-  <div class="about-image">
-    <img src="imgs/about-image.jpg" alt="About Image">
-  </div>
-</section>
-
-
-<section class="menu">
-  <h2>Our Menu</h2>
-  <div class="menu-items">
-    <div class="menu-item">
-      <img src="imgs/burger1.jpg" alt="Burger 1">
-      <h3>Classic Cheeseburger</h3>
-      <p>A juicy beef patty topped with melted cheese, fresh lettuce, tomato, and our special sauce. Served with a side of crispy fries.</p>
+  <header>
+    <div class="logo">
+      <img src="imgs/iconlogo.png" alt="Burger Hut Logo">
     </div>
-    <div class="menu-item">
-      <img src="imgs/burger2.jpg" alt="Burger 2">
-      <h3>Veggie Delight</h3>
-      <p>A delicious veggie patty made from a blend of fresh vegetables and spices. Topped with avocado, sprouts, and tangy mayo. Served with a side of sweet potato fries.</p>
-    </div>
-    <div class="menu-item">
-      <img src="imgs/burger3.jpg" alt="Burger 3">
-      <h3>Spicy BBQ Burger</h3>
-      <p>A fiery burger packed with flavor! Grilled chicken breast smothered in spicy BBQ sauce, topped with jalapenos, crispy onion rings, and chipotle mayo. Served with a side of coleslaw.</p>
-    </div>
-  </div>
-</section>
-
-<section class="reservations">
-  <div class="reservation-form">
-    <h2>Make a Reservation</h2>
-    <form>
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <input type="tel" name="phone" placeholder="Phone Number" required>
-      <input type="date" name="date" required>
-      <input type="time" name="time" required>
-      <textarea name="message" placeholder="Additional Message" rows="5"></textarea>
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-</section>
-
-
-<section class="testimonials">
-  <h2>What Our Customers Say</h2>
-  <div class="testimonial">
-    <img src="imgs/customer1.jpg" alt="Customer 1">
-    <p>"The burgers at Burger Hut are simply amazing! The flavors are rich, and the ingredients are always fresh. It's my go-to place whenever I'm craving a delicious meal."</p>
-    <h4>Prabhas</h4>
-  </div>
-  <div class="testimonial">
-    <img src="imgs/customer2.jpg" alt="Customer 2">
-    <p>"Burger Hut never disappoints! The quality of their burgers and the friendly service make it a top-notch dining experience. I highly recommend it to all burger lovers!"</p>
-    <h4>Keerthi</h4>
-  </div>
-</section>
-
-
-<section class="gallery">
-  <h2>Gallery</h2>
-  <div class="image-grid">
-    <div class="image-item">
-      <img src="imgs/gallery1.jpg" alt="Image 1">
-    </div>
-    <div class="image-item">
-      <img src="imgs/gallery2.jpg" alt="Image 2">
-    </div>
-    <div class="image-item">
-      <img src="imgs/gallery3.jpg" alt="Image 3">
-    </div>
-    <div class="image-item">
-      <img src="imgs/gallery4.jpg" alt="Image 4">
-    </div>
-  </div>
-</section>
-
-<section class="contact">
-  <div class="contact-container">
-    <h2>Contact Us</h2>
-    <div class="contact-info">
-      <div class="info-item">
-        <i class="fas fa-map-marker-alt"></i>
-        <p>Chirala,Andhra Pradesh,India</p>
-      </div>
-      <div class="info-item">
-        <i class="fas fa-phone-alt"></i>
-        <p>+91 1234567890</p>
-      </div>
-      <div class="info-item">
-        <i class="fas fa-envelope"></i>
-        <p>info@bergerhut.com</p>
-      </div>
-    </div>
-    <form class="contact-form">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
-</section>
-
-<footer class="footer">
-  <div class="footer-content">
-    <div class="footer-logo">
-      <img src="imgs/iconlogo.png" alt="Logo">
-    </div>
-    <nav class="footer-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Menu</a>
-      <a href="#">Reservations</a>
-      <a href="#">Testimonials</a>
-      <a href="#">Gallery</a>
-      <a href="#">Contact</a>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#reservations">Reservations</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-    <div class="footer-social">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-    </div>
-  </div>
-  <p class="footer-text">&copy; 2024 Berger Hut. All rights reserved.</p>
-</footer>
+  </header>
 
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h1>Welcome to Burger Hut</h1>
+      <p>Experience the Taste of Perfection</p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+  </section>
+
+  <section class="about dark-theme" id="about">
+    <div class="about-content">
+      <h2>About Burger Hut</h2>
+      <p>Experience the finest gourmet burgers in a cozy and rustic atmosphere. At Burger Hut, we deliver exceptional flavors that will tantalize your taste buds.</p>
+      <a href="#menu" class="btn">Explore Our Menu</a>
+    </div>
+    <div class="about-image">
+      <img src="imgs/about-image.jpg" alt="About Image">
+    </div>
+  </section>
+
+  <section class="menu" id="menu">
+    <h2>Our Menu</h2>
+    <div class="menu-items">
+      <div class="menu-item">
+        <img src="imgs/burger1.jpg" alt="Burger 1">
+        <h3>Classic Cheeseburger</h3>
+        <p>A juicy beef patty topped with melted cheese, fresh lettuce, tomato, and our special sauce. Served with crispy fries.</p>
+      </div>
+      <div class="menu-item">
+        <img src="imgs/burger2.jpg" alt="Burger 2">
+        <h3>Veggie Delight</h3>
+        <p>A delicious veggie patty made from fresh vegetables and spices. Topped with avocado, sprouts, and mayo. Served with sweet potato fries.</p>
+      </div>
+      <div class="menu-item">
+        <img src="imgs/burger3.jpg" alt="Burger 3">
+        <h3>Spicy BBQ Burger</h3>
+        <p>A fiery burger with grilled chicken breast, spicy BBQ sauce, jalapenos, crispy onion rings, and chipotle mayo. Served with coleslaw.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="reservations" id="reservations">
+    <div class="reservation-form">
+      <h2>Make a Reservation</h2>
+      <form>
+        <div class="form-group">
+          <input type="text" name="name" placeholder="Full Name" required>
+          <input type="email" name="email" placeholder="Email Address" required>
+        </div>
+        <div class="form-group">
+          <input type="tel" name="phone" placeholder="Phone Number" required>
+          <input type="number" name="guests" placeholder="Number of Guests" required>
+        </div>
+        <div class="form-group">
+          <input type="date" name="date" required>
+          <input type="time" name="time" required>
+        </div>
+        <div class="form-group">
+          <select name="seating" required>
+            <option value="" disabled selected>Preferred Seating</option>
+            <option value="indoor">Indoor</option>
+            <option value="outdoor">Outdoor</option>
+            <option value="private">Private Room</option>
+          </select>
+          <input type="text" name="occasion" placeholder="Occasion (e.g., Birthday)">
+        </div>
+        <textarea name="message" placeholder="Additional Instructions or Requests" rows="4"></textarea>
+        <button type="submit">Reserve Now</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="testimonials" id="testimonials">
+    <h2>What Our Customers Say</h2>
+    <div class="testimonial">
+      <img src="imgs/customer1.jpg" alt="Customer 1">
+      <p>"The burgers at Burger Hut are simply amazing! The flavors are rich, and the ingredients are always fresh. It's my go-to place whenever I'm craving a delicious meal."</p>
+      <h4>Prabhas</h4>
+    </div>
+    <div class="testimonial">
+      <img src="imgs/customer2.jpg" alt="Customer 2">
+      <p>"Burger Hut never disappoints! The quality of their burgers and the friendly service make it a top-notch dining experience. I highly recommend it to all burger lovers!"</p>
+      <h4>Keerthi</h4>
+    </div>
+  </section>
+
+  <section class="gallery" id="gallery">
+    <h2>Gallery</h2>
+    <div class="image-grid">
+      <div class="image-item"><img src="imgs/gallery1.jpg" alt="Image 1"></div>
+      <div class="image-item"><img src="imgs/gallery2.jpg" alt="Image 2"></div>
+      <div class="image-item"><img src="imgs/gallery3.jpg" alt="Image 3"></div>
+      <div class="image-item"><img src="imgs/gallery4.jpg" alt="Image 4"></div>
+    </div>
+  </section>
+
+  <section class="contact">
+    <div class="contact-container">
+      <h2>Contact Us</h2>
+      <div class="contact-info">
+        <div class="info-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <p>Chirala,Andhra Pradesh,India</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-phone-alt"></i>
+          <p>+91 1234567890</p>
+        </div>
+        <div class="info-item">
+          <i class="fas fa-envelope"></i>
+          <p>info@bergerhut.com</p>
+        </div>
+      </div>
+      <form class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-logo">
+        <img src="imgs/iconlogo.png" alt="Logo">
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2024 Burger Hut. All rights reserved.</p>
+      <p>Designed by <a href="#">Chandra Sekhar</a></p>
+    </div>
+  </footer>
+
+  <script>
+    // Smooth scrolling for navbar links
+    document.querySelectorAll('nav a').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+          behavior: 'smooth'
+        });
+      });
+    });
+  </script>
 </body>
+</html>
